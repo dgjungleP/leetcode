@@ -10,7 +10,7 @@ public class IsCovered {
             }
         }
         for(int i = left; i <= right; i++){
-            if(flag[i] == false) return false;
+            if(!flag[i]) return false;
         }
         return true;
 
